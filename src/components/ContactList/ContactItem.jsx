@@ -1,7 +1,7 @@
 import styles from "./ContactList.module.css";
 const ContactItem = ({ id, name, number, onDelete }) => {
   return (
-    <li className={styles.item}>
+    <li className={styles.item} key={id}>
       <p>
         {name}: {number}
       </p>
@@ -9,4 +9,5 @@ const ContactItem = ({ id, name, number, onDelete }) => {
     </li>
   );
 };
+
 export default ContactItem;
