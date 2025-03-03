@@ -1,17 +1,11 @@
-.ti.searchBox {
-  margin: 20px 0;
+.filterContainer {
+  margin-bottom: 20px;
 }
 
-label {
-  display: block;
-  font-size: 16px;
-  margin-bottom: 8px;
-}
-
-input {
-  padding: 8px;
-  font-size: 14px;
+.input {
+  padding: 10px;
   width: 100%;
+  max-width: 250px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 25px;
 }

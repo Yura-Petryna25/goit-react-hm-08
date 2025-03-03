@@ -1,0 +1,16 @@
+.container {
+  text-align: center;
+  padding: 50px;
+  color: #555;
+  height: 100vh;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.text {
+  font-size: 18px;
+  color: rgb(131, 131, 35);
+}

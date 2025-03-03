@@ -1,0 +1,21 @@
+.nav {
+  background: #007bff;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.link {
+  background-color: rgb(128, 190, 35);
+  border-radius: 25px;
+  color: white;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.link:hover {
+  background-color: green;
+}

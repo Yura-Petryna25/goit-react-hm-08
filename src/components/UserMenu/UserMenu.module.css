@@ -1,0 +1,25 @@
+.userMenu {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.menu {
+  display: flex;
+  gap: 15px;
+}
+.email {
+  font-weight: bold;
+}
+
+.button {
+  background-color: rgb(128, 190, 35);
+  border-radius: 25px;
+  color: white;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: green;
+}

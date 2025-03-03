@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  gap: 15px;
+}
+
+.link {
+  background-color: rgb(128, 190, 35);
+  border-radius: 25px;
+  color: white;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.link:hover {
+  background-color: green;
+}
+.authNav {
+  display: flex;
+  gap: 15px;
+}
