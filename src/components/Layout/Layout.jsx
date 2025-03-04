@@ -1,17 +1,26 @@
-import { Outlet } from "react-router-dom";
-import Navigation from "../Navigation/Navigation";
-import css from "./Layout.module.css";
+// import { Outlet } from "react-router-dom";
+// import AppBar from "../AppBar/AppBar";
 
-const Layout = () => {
+// const Layout = () => {
+//   return (
+//     <>
+//       <AppBar />
+//       <main>
+//         <Outlet />
+//       </main>
+//     </>
+//   );
+// };
+
+// export default Layout;
+import AppBar from "../AppBar/AppBar";
+
+const Layout = ({ children }) => {
   return (
-    <div>
-      <header className={css.header}>
-        <Navigation />
-      </header>
-      <main>
-        <Outlet />
-      </main>
-    </div>
+    <>
+      <AppBar />
+      <main>{children}</main>
+    </>
   );
 };
 

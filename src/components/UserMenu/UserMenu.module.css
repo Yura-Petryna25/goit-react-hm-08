@@ -6,6 +6,9 @@
 .menu {
   display: flex;
   gap: 15px;
+  position: absolute;
+  right: 15px;
+  top: 25px;
 }
 .email {
   font-weight: bold;
